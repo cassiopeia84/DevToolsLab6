@@ -10,7 +10,7 @@ int main() {
     char operation;
 
     std::cout << "Enter two numbers and math operation between them. Use only +, -, *, /\nExample: 12 13 +\n";
-    std::cin >> firstNumber >> secondNumber >> operation;
+    std::cin firstNumber >> secondNumber >> operation;
 
     switch (operation) {
         case '+':
