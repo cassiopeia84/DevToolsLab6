@@ -1,6 +1,6 @@
 name: C++ CI
 
-on: [commit_comment]
+on: [push]
 
 env:
   BUILD_TYPE: Release
