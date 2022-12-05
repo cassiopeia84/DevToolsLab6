@@ -27,11 +27,8 @@ int main() {
             break;
         default:
             std::cout << "You can't use this operation\n";
-            break
+            break;
     }
-
-
-
 
     return 0;
 }
